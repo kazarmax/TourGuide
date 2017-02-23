@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/tour_picture"
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="@dimen/list_item_height"
+        android:background="@color/tan_background"
+        android:scaleType="centerCrop"
+        tools:src="@mipmap/ic_launcher" />
+
+    <LinearLayout
+        android:id="@+id/text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/list_item_height"
+        android:orientation="vertical"
+        android:paddingBottom="4dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="4dp"
+        tools:background="@color/color_food">
+
+        <TextView
+            android:id="@+id/tour_name"
+            style="@style/ListItem"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Tour name" />
+
+        <TextView
+            android:id="@+id/tour_description"
+            style="@style/ListItem"
+            tools:text="Tour description" />
+
+        <TextView
+            android:id="@+id/tour_address"
+            style="@style/ListItem"
+            tools:text="Tour address" />
+
+        <TextView
+            android:id="@+id/tour_phone"
+            style="@style/ListItem"
+            tools:text="Tour phone" />
+
+        <TextView
+            android:id="@+id/tour_metro"
+            style="@style/ListItem"
+            tools:text="Tour metro" />
+
+    </LinearLayout>
+
+</LinearLayout>

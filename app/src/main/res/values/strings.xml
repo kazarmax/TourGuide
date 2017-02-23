@@ -1,0 +1,156 @@
+<!-- Copyright (C) 2016 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Title for the application. [CHAR LIMIT=12] -->
+    <string name="app_name">Tour Guide</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_parks">Parks</string>
+
+    <!-- Category name for the vocabulary tours for colors [CHAR LIMIT=20] -->
+    <string name="category_hotels">Hotels</string>
+
+    <!-- Category name for the vocabulary tours for numbers [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <string name="category_sport">Sport</string>
+
+    <string name="bizon_chili_stejk_name">Стейк Хаус Бизон</string>
+    <string name="bizon_chili_stejk_descr">Мясной ресторан</string>
+    <string name="bizon_chili_stejk_addr">ЛУБЯНСКИЙ ПР-Д, 15 СТР. 2</string>
+    <string name="bizon_chili_stejk_phone">+7 (495) 231-92-82</string>
+    <string name="bizon_chili_stejk_metro">М. Китай-город</string>
+
+    <string name="lepim_i_varim_name">Лепим и варим</string>
+    <string name="lepim_i_varim_descr">Настоящая пельменная</string>
+    <string name="lepim_i_varim_addr">СТОЛЕШНИКОВ ПЕР-К 9С1</string>
+    <string name="lepim_i_varim_phone">+7 (985) 688-96-06</string>
+    <string name="lepim_i_varim_metro">М. Тверская</string>
+
+    <string name="savva_restaurant_name">SAVVA</string>
+    <string name="savva_restaurant_descr">Ресторан</string>
+    <string name="savva_restaurant_addr">ТЕАТРАЛЬНЫЙ ПР. 2</string>
+    <string name="savva_restaurant_phone">+7 (499) 270-10-62</string>
+    <string name="savva_restaurant_metro">М. Охотный ряд</string>
+
+    <string name="lavka_lavka_name">LavkaLavka</string>
+    <string name="lavka_lavka_descr">Фермерский ресторан</string>
+    <string name="lavka_lavka_addr">ПЕТРОВКА 21-2</string>
+    <string name="lavka_lavka_phone">+7 (903) 115-50-33</string>
+    <string name="lavka_lavka_metro">М. Чеховская</string>
+
+    <string name="kafe_pushkin_name">Кафе Пушкинъ</string>
+    <string name="kafe_pushkin_descr">Ресторан</string>
+    <string name="kafe_pushkin_addr">ТВЕРСКОЙ БУЛЬВАР, 26A</string>
+    <string name="kafe_pushkin_phone">+7 (495) 739-00-33</string>
+    <string name="kafe_pushkin_metro">М. Пушкинская</string>
+
+    <string name="palmira_hotel_name">Пальмира Бизнес Клуб</string>
+    <string name="palmira_hotel_descr">Отель</string>
+    <string name="palmira_hotel_addr">НОВОДАНИЛОВСКАЯ НАБ. 6</string>
+    <string name="palmira_hotel_phone">+7 (499) 551-88-03</string>
+    <string name="palmira_hotel_metro">М. Тульская</string>
+
+    <string name="lotte_hotel_name">Лотте Отель Москва</string>
+    <string name="lotte_hotel_descr">Отель</string>
+    <string name="lotte_hotel_addr">НОВИНСКИЙ БУЛЬВАР 8С2</string>
+    <string name="lotte_hotel_phone">+7 (495) 745-10-00</string>
+    <string name="lotte_hotel_metro">М. Смоленская</string>
+
+    <string name="ritzcarlton_hotel_name">Ритц-Карлтон Москва</string>
+    <string name="ritzcarlton_hotel_descr">Отель</string>
+    <string name="ritzcarlton_hotel_addr">УЛ. ТВЕРСКАЯ 3</string>
+    <string name="ritzcarlton_hotel_phone">+7 (495) 225-88-88</string>
+    <string name="ritzcarlton_hotel_metro">М. Охотный ряд</string>
+
+    <string name="ararat_park_hyatt_hotel_name">Арарат Парк Хаятт Москва</string>
+    <string name="ararat_park_hyatt_hotel_descr">Отель</string>
+    <string name="ararat_park_hyatt_hotel_addr">УЛ. НЕГЛИННАЯ 4</string>
+    <string name="ararat_park_hyatt_hotel_phone">+7 (495) 783-12-34</string>
+    <string name="ararat_park_hyatt_hotel_metro">М. Лубянка</string>
+
+    <string name="novotel_hotel_name">Novotel Москва Сити</string>
+    <string name="novotel_hotel_descr">Отель</string>
+    <string name="novotel_hotel_addr">ПРЕСНЕНСКАЯ НАБ. 2</string>
+    <string name="novotel_hotel_phone">+7 (495) 664-89-89</string>
+    <string name="novotel_hotel_metro">М. Деловой центр</string>
+
+    <string name="park_gorkogo_park_name">Парк Горького</string>
+    <string name="park_gorkogo_park_descr">Парк</string>
+    <string name="park_gorkogo_park_addr">УЛ. КРЫМСКИЙ ВАЛ 9</string>
+    <string name="park_gorkogo_park_phone">+7 (495) 995-00-20</string>
+    <string name="park_gorkogo_park_metro">М. Октябрьская</string>
+
+    <string name="neskuchni_sad_park_name">Нескучный сад</string>
+    <string name="neskuchni_sad_park_descr">Парк</string>
+    <string name="neskuchni_sad_park_addr">ЛЕНИНСКИЙ ПР-Т 32А</string>
+    <string name="neskuchni_sad_park_phone">+7 (495) 995-00-20</string>
+    <string name="neskuchni_sad_park_metro">М. Площадь Гагарина</string>
+
+    <string name="vorob_gori_park_name">Воробьевы горы</string>
+    <string name="vorob_gori_park_descr">Парк</string>
+    <string name="vorob_gori_park_addr">МОСКВА</string>
+    <string name="vorob_gori_park_phone">+7 (499) 739-27-07</string>
+    <string name="vorob_gori_park_metro">М. Воробьевы горы</string>
+
+    <string name="aleksandr_sad_park_name">Александровский сад</string>
+    <string name="aleksandr_sad_park_descr">Парк</string>
+    <string name="aleksandr_sad_park_addr">УЛ. МАНЕЖНАЯ</string>
+    <string name="aleksandr_sad_park_phone">+7 (916) 709-13-37</string>
+    <string name="aleksandr_sad_park_metro">М. Александровский сад</string>
+
+    <string name="park_pobedi_park_name">Парк Победы</string>
+    <string name="park_pobedi_park_descr">Парк</string>
+    <string name="park_pobedi_park_addr">ПР-Т КУТУЗОВСКИЙ</string>
+    <string name="park_pobedi_park_phone">+7 (499) 148-83-00</string>
+    <string name="park_pobedi_park_metro">М. Парк Победы</string>
+
+    <string name="big_wall_skalkdrom_name">Скалодром Big Wall</string>
+    <string name="big_wall_skalkdrom_descr">Скалолазный центр</string>
+    <string name="big_wall_skalkdrom_addr">УЛ. БУМАЖНЫЙ ПРОЕЗД 19-1</string>
+    <string name="big_wall_skalkdrom_phone">+7 (499) 653-50-20</string>
+    <string name="big_wall_skalkdrom_metro">М. Савёловская</string>
+
+    <string name="world_class_gym_name">World Class</string>
+    <string name="world_class_gym_descr">Фитнес-клуб</string>
+    <string name="world_class_gym_addr">УЛ. БОЛЬШАЯ ГРУЗИНСКАЯ 69</string>
+    <string name="world_class_gym_phone">+7 (495) 755-57-67</string>
+    <string name="world_class_gym_metro">М. Тверская</string>
+
+    <string name="arena_play_karting_name">Arena Play</string>
+    <string name="arena_play_karting_descr">Картинг</string>
+    <string name="arena_play_karting_addr">БАГРАТИОНОВСКИЙ ПРОЕЗД 5</string>
+    <string name="arena_play_karting_phone">+7 (495) 120-17-18</string>
+    <string name="arena_play_karting_metro">М. Фили</string>
+
+    <string name="sky_town_rope_park_name">Sky Town</string>
+    <string name="sky_town_rope_park_descr">Веревочный парк</string>
+    <string name="sky_town_rope_park_addr">ПР-Т МИРА 119</string>
+    <string name="sky_town_rope_park_phone">+7 (495) 133-05-95</string>
+    <string name="sky_town_rope_park_metro">М. ВДНХ</string>
+
+    <string name="labirint_pistol_club_name">Лабиринт</string>
+    <string name="labirint_pistol_club_descr">Стрелковый клуб</string>
+    <string name="labirint_pistol_club_addr">КУТУЗОВСКИЙ ПР-Т 12-1</string>
+    <string name="labirint_pistol_club_phone">+7 (495) 646-16-45</string>
+    <string name="labirint_pistol_club_metro">М. Киевская</string>
+
+    <string name="olimpiysky_swim_pool_name">СК «Олимпийский»</string>
+    <string name="olimpiysky_swim_pool_descr">Плавательный бассейн</string>
+    <string name="olimpiysky_swim_pool_addr">ОЛИМПИЙСКИЙ ПР. 16-2</string>
+    <string name="olimpiysky_swim_pool_phone">+7 (495) 786-32-16</string>
+    <string name="olimpiysky_swim_pool_metro">М. Проспект Мира</string>
+
+</resources>
