@@ -24,41 +24,55 @@ public class TourAdapter extends ArrayAdapter<Tour> {
     @NonNull
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        View listItemView = convertView;
-        if(listItemView == null) {
-            listItemView = LayoutInflater.from(getContext()).inflate(
+
+        ViewHolder viewHolder;
+
+        if (convertView == null) {
+            convertView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
+
+            viewHolder = new ViewHolder();
+
+            viewHolder.tourName = (TextView) convertView.findViewById(R.id.tour_name);
+            viewHolder.tourDescription = (TextView) convertView.findViewById(R.id.tour_description);
+            viewHolder.tourAddress = (TextView) convertView.findViewById(R.id.tour_address);
+            viewHolder.tourPhone = (TextView) convertView.findViewById(R.id.tour_phone);
+            viewHolder.tourMetro = (TextView) convertView.findViewById(R.id.tour_metro);
+            viewHolder.tourImageView = (ImageView) convertView.findViewById(R.id.tour_picture);
+            viewHolder.textLayout = (LinearLayout) convertView.findViewById(R.id.text_layout);
+
+            convertView.setTag(viewHolder);
+        } else {
+            viewHolder = (ViewHolder) convertView.getTag();
         }
 
         final Tour currentTour = getItem(position);
 
-        ImageView tourImageView = (ImageView) listItemView.findViewById(R.id.tour_picture);
         if (currentTour.hasImage()) {
-            tourImageView.setImageResource(currentTour.getImageResourceId());
-            tourImageView.setVisibility(View.VISIBLE);
+            viewHolder.tourImageView.setImageResource(currentTour.getImageResourceId());
+            viewHolder.tourImageView.setVisibility(View.VISIBLE);
         } else {
-            tourImageView.setVisibility(View.GONE);
+            viewHolder.tourImageView.setVisibility(View.GONE);
         }
 
-        TextView tourName = (TextView) listItemView.findViewById(R.id.tour_name);
-        tourName.setText(currentTour.getName());
+        viewHolder.tourName.setText(currentTour.getName());
+        viewHolder.tourDescription.setText(currentTour.getShortDescription());
+        viewHolder.tourAddress.setText(currentTour.getAddress());
+        viewHolder.tourPhone.setText(currentTour.getPhone());
+        viewHolder.tourMetro.setText(currentTour.getMetro());
+        viewHolder.textLayout.setBackgroundResource(mBackgroundColor);
 
-        TextView tourDescription = (TextView) listItemView.findViewById(R.id.tour_description);
-        tourDescription.setText(currentTour.getShortDescription());
+        return convertView;
+    }
 
-        TextView tourAddress = (TextView) listItemView.findViewById(R.id.tour_address);
-        tourAddress.setText(currentTour.getAddress());
-
-        TextView tourPhone = (TextView) listItemView.findViewById(R.id.tour_phone);
-        tourPhone.setText(currentTour.getPhone());
-
-        TextView tourMetro = (TextView) listItemView.findViewById(R.id.tour_metro);
-        tourMetro.setText(currentTour.getMetro());
-
-        LinearLayout textLayout = (LinearLayout) listItemView.findViewById(R.id.text_layout);
-        textLayout.setBackgroundResource(mBackgroundColor);
-
-        return listItemView;
+    static class ViewHolder {
+        TextView tourName;
+        TextView tourDescription;
+        TextView tourAddress;
+        TextView tourPhone;
+        TextView tourMetro;
+        ImageView tourImageView;
+        LinearLayout textLayout;
     }
 
 }
